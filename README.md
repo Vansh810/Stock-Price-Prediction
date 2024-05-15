@@ -1,5 +1,5 @@
 # Stock-Price-Prediction
-This repository contains Python code for predicting stock prices using historical data and the Prophet library.
+This repository contains a simple Python code for preliminary prediction of stock prices using historical data and the Prophet library.
 
 # Overview
 The Stock Price Predictor is a Python script that forecasts stock prices based on historical data obtained from Yahoo Finance. It utilizes the Prophet library for time series forecasting. The script preprocesses the historical data, trains the Prophet model, and generates future price predictions. The predictions are then visualized alongside historical data for analysis.
