@@ -1,0 +1,5 @@
+prophet
+yfinance
+pandas
+matplotlib
+seaborn
