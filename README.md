@@ -15,3 +15,8 @@ The Stock Price Predictor is a Python script that forecasts stock prices based o
 2. Create a file named `stocks.txt` containing the list of stock symbols to be analyzed, with each symbol on a new line.
 3. Run the `main.py` script to initiate the stock price prediction process.
 4. The predicted prices will be visualized and saved in the `Predictions` directory.
+
+# Sample Outputs
+![TCS_prediction](https://github.com/Vansh810/Stock-Price-Prediction/assets/90690711/9105aa51-d006-48ff-a357-2b413abc8fda)
+![MRF_prediction](https://github.com/Vansh810/Stock-Price-Prediction/assets/90690711/88b41682-e8c8-41d1-890f-a5a71e3bd184)
+![HDFCBANK_prediction](https://github.com/Vansh810/Stock-Price-Prediction/assets/90690711/99320335-6eb4-4bc9-8c37-a2899b8333ac)
