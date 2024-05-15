@@ -7,7 +7,7 @@ The Stock Price Predictor is a Python script that forecasts stock prices based o
 # Features
 1. *Data Retrieval*: Fetches historical stock data from Yahoo Finance using the `yfinance` library.
 2. *Model Training*: Utilizes the Prophet library for time series forecasting, allowing customization of model parameters.
-3. *Prediction Visualization**: Generates visualizations using Matplotlib and Seaborn to display historical data and predicted stock prices.
+3. *Prediction Visualization*: Generates visualizations using Matplotlib and Seaborn to display historical data and predicted stock prices.
 4. *Peak Annotation*: Automatically annotates maximum and minimum peaks in the predicted data for easy identification.
 
 # Usage
