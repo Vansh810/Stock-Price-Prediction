@@ -1,0 +1,5 @@
+### Sample list of stocks, update as per requirements
+
+TCS
+MRF
+HDFCBANK
