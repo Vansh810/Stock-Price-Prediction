@@ -71,6 +71,12 @@ def predict_stock_price(stock_data):
         return None
 
 
+def make_predictions_directory():
+    predictions_dir = 'Predictions'
+    if not os.path.exists(predictions_dir):
+        os.makedirs(predictions_dir)
+
+
 def plot_stock_data_and_forecast(stock_data, forecast, stock_symbol):
     # Calculate historical start date as one month before the current date
     end_date = datetime.now()
@@ -127,6 +133,7 @@ def plot_stock_data_and_forecast(stock_data, forecast, stock_symbol):
     plt.ylabel("Close Price")
     plt.legend()
     plt.tight_layout(rect=(0, 0, 0.8, 1))  # Adjust layout for the annotations
+    make_predictions_directory()
     output_path = os.path.join('Predictions', f'{stock_symbol}_prediction.png')
     plt.savefig(output_path)
     plt.close()
